@@ -1,11 +1,4 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
-*/
-/* 
-    Created on : 31 de ago. de 2023, 20:11:44
-    Author     : diogo
-*/
+
 *{
     font-family: 'Montserrat', sans-serif;
     margin:0;
@@ -14,8 +7,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     outline:none;
 }
 body{
-    background-image: url('pano.png');
-    background-size: cover;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,246,252,1) 100%); 
 }
 .bloco{
     text-align: center;
@@ -29,9 +22,7 @@ body{
     border-radius:5px;
 }
 #caixa{
-    margin-top:0px;
     border:none;
-    margin-left: -70px;
     margin-top: 30px;
     padding-left:85px;
     border-radius:5px;
@@ -40,7 +31,7 @@ body{
     font-size:15px;
 }
 #botao{
-    background-color:#00430d;
+    background: rgb(63,94,251);
     float:right;
     font-weight: bold;
     color:white;
@@ -70,17 +61,32 @@ body{
      margin-top:30px;
  }
  .item{
-     align-items: center;
      background-color:#F2F2F2;
      height:50px;
      display:flex;
      box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
      justify-content: space-between;
+     align-items: center;
      padding-right: 10px;
      padding-left:10px;
      margin-bottom:20px;
+     margin-right: 30px;
+}
+#textos{
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    padding-left:10px;
+    padding-top:20px;
+    margin-bottom:20px;
+    margin-right: 30px;
 }
 .item:hover img{
     opacity:100%;
+}
+.done{
+    background-color: green;
+    text-decoration: line-through;
+
 }
  
